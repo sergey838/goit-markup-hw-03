@@ -9,6 +9,12 @@ text-decoration: none;
 }
 /*------header-----*/
 .header {
+    width: 1440px;
+        height: 72px;
+        flex-shrink: 0;
+        border-bottom: 1px solid  #E7E9FC;
+            background:  #FFF;
+            display: flex;
 
     
 }
@@ -20,11 +26,24 @@ text-decoration: none;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        display: flex;
+        padding-top: 25.5px;
+        padding-bottom: 25.5px;
+        padding-left: 156px;
 }
+ .list-header-menu {
+    display: flex;
+    gap: 40px;
+    padding-left: 347px;
+    flex-grow: 1;
+ }
+
 .list-header {
     color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
+    
 
 }
 .list-header:hover {
@@ -36,6 +55,19 @@ text-decoration: none;
 .nav1{
     font-weight: 500;
     color: #2E2F42;
+    display: flex;
+    
+}
+.social-list {
+    font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+    display: flex;
+    gap: 40px;
+    
     
 }
 .address {
@@ -44,6 +76,7 @@ text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: flex;
 }
 .address:hover {
     color: #404bbf;
@@ -66,6 +99,8 @@ text-decoration: none;
 /*-----section1----*/
 .section-a {
     background-color: #2E2F42;
+    padding-top: 120px;
+    padding-bottom: 120px;
 
 }
 
@@ -85,6 +120,10 @@ text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    display: inline-flex;
+        padding: 16px 32px;
+        align-items: flex-start;
+        gap: 10px;
 
 }
 .button:hover {
@@ -115,6 +154,8 @@ text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 120px;
+    padding-bottom: 120px;
 
 }
 .studio {
@@ -132,6 +173,8 @@ text-decoration: none;
 }
 .section-c {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .list-item {
     background-color: #FFFFFF;
@@ -152,6 +195,9 @@ text-decoration: none;
     color: #2e2f42;
 }
 .section-d {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border: 
 
 }
 .section-d-title {
