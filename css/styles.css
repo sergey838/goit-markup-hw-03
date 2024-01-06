@@ -12,6 +12,10 @@ text-decoration: none;
 }
 .container {
     display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+     padding-right: 15px;
 }
 /*------header-----*/
 .header {
@@ -50,6 +54,7 @@ text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: flex;
+    padding: 24px 0 24px;
     
 
 }
