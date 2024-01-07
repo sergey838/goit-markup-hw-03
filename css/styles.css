@@ -140,13 +140,13 @@ text-align: center;
     letter-spacing: 0.04em;
     cursor: pointer;
     display: block;
-    height: 56px
-        padding: 16px 32px;
-        align-items: flex-start;
-        gap: 10px;
-        min-width: 169px
-        border: none;
-        border-radius: 4px;
+    height: 56px;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    min-width: 169px;
+    border: none;
+    border-radius: 4px;
 
 }
 .button:hover {
@@ -164,6 +164,14 @@ text-align: center;
     text-align: center;
 }
 /*-----section2-----*/
+.secyion-b {
+    padding-top: 120px;
+        padding-bottom: 120px;
+
+} 
+.visually-hidden {
+    
+}
 .section-b-title {
     
     font-weight: 500;
@@ -175,6 +183,7 @@ text-align: center;
 
 }
 .section-b-list {
+width: calc((100% - 72px) / 4);
 display: flex;
 gap: 24px;
 }
@@ -184,8 +193,7 @@ gap: 24px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    
     
 
 }
@@ -216,6 +224,8 @@ gap: 24px;
 .list-item {
     background-color: #FFFFFF;
     display: flex;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
     gap: 24px;
 }
 .section-c-text {
@@ -252,6 +262,7 @@ gap: 24px;
 
 }
 .section-d-list {
+    width: calc((100% - 48px) / 3);
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -273,14 +284,15 @@ footer {
     padding-bottom: 100px;
 }
 .footer-logo {
+    display: inline-block;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: inline-block;
     margin-bottom: 16px;
+    
 }
 .footer-text {
 color: #F4F4FD;
