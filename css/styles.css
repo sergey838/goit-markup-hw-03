@@ -174,12 +174,15 @@ text-align: center;
 }
 /*-----section2-----*/
 .secyion-b {
-    padding-top: 120px;
-        padding-bottom: 120px;
-
+    
 } 
 .visually-hidden {
     
+}
+.section-b- {
+
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .section-b-title {
     
@@ -243,7 +246,6 @@ list-style: none;
 }
 .list-item {
     background-color: #FFFFFF;
-    
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     list-style: none;
